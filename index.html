@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Solutions</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #ffffff;
+            color: #000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            box-sizing: border-box;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #7C3AED;
+        }
+
+        .menu a {
+            color: #cccccc;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .menu a:hover {
+            color: #ffffff;
+        }
+
+        .menu a.btn-primary {
+            background: #7C3AED;
+            color: #ffffff;
+            padding: 8px 18px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+
+        .menu a.btn-primary:hover {
+            opacity: 0.9;
+        }
+
+        .menu a:hover {
+            color: #7C3AED;
+        }
+
+        section {
+            padding: 120px 30px 60px 30px;
+            min-height: 100vh;
+        }
+
+        .banner {
+            background: #7C3AED;
+            color: white;
+            padding: 80px 30px;
+            border-radius: 10px;
+        }
+
+        .banner h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .banner p {
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        #home {
+            background: #f4f4f4;
+        }
+
+        #servicios {
+            background: #e0f7fa;
+        }
+
+        #contactos {
+            background: #fce4ec;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #7C3AED;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background: #1e1e2f;
+            color: #ccc;
+            padding: 40px 30px;
+            margin-top: 40px;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .footer-column {
+            width: 30%;
+            min-width: 250px;
+        }
+
+        .footer h3 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .footer p, .footer a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">Digital Solutions</div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contactos">Contactos</a>
+            <a href="#contactos" class="btn-primary">Comenzar</a>
+        </div>
+    </div>
+
+    <section id="home">
+        <div class="banner">
+            <h1>Transformamos Ideas en<br>Realidad Digital</h1>
+            <p>Soluciones tecnológicas innovadoras para impulsar tu negocio al siguiente nivel. Diseño, desarrollo y estrategia digital todo en un solo lugar.</p>
+            <a href="#servicios" class="btn">Ver Servicios</a>
+        </div>
+    
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Digital Solutions</h3>
+                    <p>Transformamos ideas en soluciones digitales innovadoras. Tu socio tecnológico de confianza.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Enlaces</h3>
+                    <a href="#home">Home</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#contactos">Contacto</a>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <p>info@digitalsolutions.com</p>
+                    <p>+57 313 123 456</p>
+                    <p>Bogotá, Colombia</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 Digital Solutions. Todos los derechos reservados.
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <div class="banner">
+            <h1>Nuestros Servicios</h1>
+            <p>Soluciones completas de tecnología y marketing digital diseñadas para hacer crecer tu negocio</p>
+        </div>
+        <ul>
+            <li>Desarrollo Web</li>
+            <li>Aplicaciones Móviles</li>
+            <li>Consultoría Tecnológica</li>
+            <li>Soporte y Mantenimiento</li>
+        </ul>
+    
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Digital Solutions</h3>
+                    <p>Transformamos ideas en soluciones digitales innovadoras. Tu socio tecnológico de confianza.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Enlaces</h3>
+                    <a href="#home">Home</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#contactos">Contacto</a>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <p>info@digitalsolutions.com</p>
+                    <p>+57 313 123 456</p>
+                    <p>Bogotá, Colombia</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 Digital Solutions. Todos los derechos reservados.
+            </div>
+        </div>
+    </section>
+
+    <section id="contactos">
+        <div class="banner">
+            <h1>Contacta con Nosotros</h1>
+            <p>¿Tienes un proyecto en mente? Estamos aquí para ayudarte a hacerlo realidad</p>
+        </div>
+        <p>Email: contacto@digitalsolutions.com</p>
+        <p>Teléfono: +57 300 123 4567</p>
+        <form>
+            <input type="text" placeholder="Nombre" required><br><br>
+            <input type="email" placeholder="Correo" required><br><br>
+            <textarea placeholder="Mensaje" required></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Digital Solutions</h3>
+                    <p>Transformamos ideas en soluciones digitales innovadoras. Tu socio tecnológico de confianza.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Enlaces</h3>
+                    <a href="#home">Home</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#contactos">Contacto</a>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <p>info@digitalsolutions.com</p>
+                    <p>+57 313 123 456</p>
+                    <p>Bogotá, Colombia</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 Digital Solutions. Todos los derechos reservados.
+            </div>
+        </div>
+    </section>
+
+<script>
+    const sections = document.querySelectorAll('section');
+
+    function showSection(id) {
+        sections.forEach(sec => sec.style.display = 'none');
+        document.getElementById(id).style.display = 'block';
+    }
+
+    showSection('home');
+
+    document.querySelectorAll('.menu a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = this.getAttribute('href').replace('#','');
+            showSection(target);
+        });
+    });
+
+    document.querySelector('.btn').addEventListener('click', function(e){
+        e.preventDefault();
+        showSection('servicios');
+    });
+</script>
+</body>
+</html>
