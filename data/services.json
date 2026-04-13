@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Diseño Web",
+    "descripcion": "Creamos sitios web modernos, responsivos y optimizados para motores de búsqueda que generan resultados reales para tu negocio.",
+    "precio": "$999",
+    "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "categoria": "Desarrollo"
+  },
+  {
+    "id": 2,
+    "nombre": "Marketing Digital",
+    "descripcion": "Estrategias de marketing digital personalizadas para hacer crecer tu audiencia y aumentar tus ventas en línea.",
+    "precio": "$1,499",
+    "imagen": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    "categoria": "Marketing"
+  },
+  {
+    "id": 3,
+    "nombre": "Aplicaciones Móviles",
+    "descripcion": "Desarrollamos aplicaciones nativas y multiplataforma para iOS y Android con experiencias de usuario excepcionales.",
+    "precio": "$2,999",
+    "imagen": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
+    "categoria": "Desarrollo"
+  },
+  {
+    "id": 4,
+    "nombre": "Consultoría Tecnológica",
+    "descripcion": "Asesoramos a tu empresa para tomar las mejores decisiones tecnológicas y optimizar tus procesos digitales.",
+    "precio": "$499",
+    "imagen": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80",
+    "categoria": "Consultoría"
+  },
+  {
+    "id": 5,
+    "nombre": "SEO & Posicionamiento",
+    "descripcion": "Mejora la visibilidad de tu negocio en los motores de búsqueda y atrae más clientes de forma orgánica.",
+    "precio": "$799",
+    "imagen": "https://images.unsplash.com/photo-1572177812156-58036aae439c?auto=format&fit=crop&w=800&q=80",
+    "categoria": "Marketing"
+  },
+  {
+    "id": 6,
+    "nombre": "Soporte Técnico",
+    "descripcion": "Mantenemos tu infraestructura digital funcionando al máximo con soporte técnico especializado 24/7.",
+    "precio": "$299",
+    "imagen": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+    "categoria": "Soporte"
+  }
+]
