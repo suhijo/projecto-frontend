@@ -52,6 +52,13 @@ digital-solutions/
 
 ## Cómo ejecutar
 
+### Opción principal (Entrega final integrada a Boca)
+La aplicación Front-end final está publicada y accesible en tiempo real en:
+
+https://suhijo.github.io/projecto-frontend/
+
+Al abrir esta URL en el navegador se puede visualizar y probar toda la interfaz sin instalación local.
+
 ### Opción A – Archivo directo (sin servidor)
 Abrir `index.html` directamente en el navegador.
 Los servicios se cargan desde los datos embebidos en `app.js` como fallback automático.
@@ -64,6 +71,16 @@ python -m http.server 8080
 npx serve .
 ```
 Luego acceder a `http://localhost:8080`
+
+---
+
+## Entrega final (requisito de integración)
+
+Para la entrega final se incluyen:
+
+- Todos los archivos de la aplicación base Boca junto con las mejoras de interfaz desarrolladas.
+- La versión desplegada para revisión en línea: https://suhijo.github.io/projecto-frontend/
+- Este documento (`README.md`) como guía de ejecución y documentación funcional.
 
 ---
 
